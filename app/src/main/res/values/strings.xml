@@ -1,0 +1,48 @@
+<resources>
+    <!-- Nome do App -->
+    <string name="app_name">Agenda Barber Kotlin</string>
+
+    <!-- Tela Agendamento -->
+    <string name="hora_clt">Nome/Hora/Dia: </string>
+    <string name="data_clt">Data/Hora:</string>
+    <string name="dia">Dia:</string>
+    <string name="agendar">Agendar</string>
+    <string name="gravar">AGENDAR</string>
+
+    <!-- Tela Clientes Vip -->
+    <string name="clientes_vip">Clientes Vip</string>
+    <string name="nome_cliente">Cliente</string>
+    <string name="descrição">Clientes Vip</string>
+    <string name="numero">Número (Cel)</string>
+    <string name="cadastrar">Cadastrar</string>
+
+    <!-- Alertas de Erro -->
+    <string name="erro">Os campos não podem estar vazios !</string>
+    <string name="mensagem_erro">Os campos não podem está vazios e nem iniciar em 0</string>
+
+    <!-- Alertas de Sucesso -->
+    <string name="confirma_agenda"><![CDATA["Agendamento Concluido: "]]></string>
+    <string name="confirma_cadastro"><![CDATA["Cadastro Concluido: "]]></string>
+    <string name="concluido">Salvo com sucesso</string>
+    <string name="calc_removed">Registro removido com sucesso</string>
+    <string name="confirm_remove">Registro removido!</string>
+
+    <!-- Alert Dialog -->
+    <string name="delete_message">Deseja remover esse registro?</string>
+    <string name="editar_registro">Você deseja editar esse cadastro ?</string>
+    <string name="não">Não</string>
+    <string name="sim">Sim</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cliente">Nome</string>
+    <string name="agendamento">"Agenda Barber"</string>
+    <string name="horas">Horário</string>
+    <string name="list_reposta">Agendamento -> %s  Data: %2$s</string>
+    <string name="lista_agendamento_clinete">Informações do Agendamento</string>
+    <string name="nome_clt">Nome: </string>
+    <string name="buscar">Buscar</string>
+    <string name="salvar">Salvar</string>
+    <string name="lista">Lista</string>
+    <string name="inicializando">Inicializando...</string>
+
+    <!--| Data: %2$s  -->
+</resources>
