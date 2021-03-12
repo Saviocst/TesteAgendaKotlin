@@ -24,27 +24,27 @@ class ListaActivity : AppCompatActivity(), EventoDeClicar2 {
         setContentView(R.layout.activity_lista)
 
         val agrupar = intent.extras
-        if (agrupar == null) finish()
-        if (BuildConfig.DEBUG && agrupar == null) {
-            error("Assertion failed")
+
+        if (agrupar == null){
+            finish()
         }
+        else {
 
-        val tipo = agrupar?.getString("tipo")
+            val tipo = agrupar.getString("tipo")
 
-        //val rvLista = findViewById<RecyclerView>(R.id.lista_recycler_agenda)
-        rvLista = findViewById(R.id.lista_recycler_agenda)
+            //val rvLista = findViewById<RecyclerView>(R.id.lista_recycler_agenda)
+            rvLista = findViewById(R.id.lista_recycler_agenda)
 
-        val db = BancoDados.getInstancia(this)
+            val db = BancoDados.getInstancia(this)
 
-        dados.addAll(db!!.buscarRegistro(tipo!!))
+            dados.addAll(db!!.buscarRegistro(tipo!!))
 
-        val adaptador = AdaptadorLista(dados, this)
+            val adaptador = AdaptadorLista(dados, this)
 
-        rvLista.adapter = adaptador
+            rvLista.adapter = adaptador
 
-        rvLista.layoutManager = LinearLayoutManager(this)
-
-
+            rvLista.layoutManager = LinearLayoutManager(this)
+        }
 
     }
 

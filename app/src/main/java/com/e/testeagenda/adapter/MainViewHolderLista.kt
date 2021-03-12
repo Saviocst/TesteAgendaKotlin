@@ -9,11 +9,7 @@ import com.e.testeagenda.model.EventoDeClicar
 import com.e.testeagenda.model.EventoDeClicar2
 
 class MainViewHolderLista(itemView: View) : RecyclerView.ViewHolder(itemView) {
-    /*interface EventoDeClicar {
-        fun aoClicar(id: Int, tipo: String?)
-        fun aoClicarSegurar(position: Int, tipo: String?, id: Int)
-    }*/
-    
+
 
     fun bind(dado: Registro, eventoDeClicar: EventoDeClicar2) {
         val nomeCliente = itemView.findViewById<TextView>(R.id.nome_cliente)

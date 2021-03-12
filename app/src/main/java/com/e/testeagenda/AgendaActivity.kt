@@ -22,9 +22,11 @@ class AgendaActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_agenda)
+
         editNome = findViewById(R.id.txt_nome_agenda)
         editHora = findViewById(R.id.txt_hora_agenda)
         diaAgendamento = findViewById(R.id.dias_de_agendamento)
+
         val botaoAgenda = findViewById<Button>(R.id.btn_agenda)
         botaoAgenda.setOnClickListener { clicar() }
     }
