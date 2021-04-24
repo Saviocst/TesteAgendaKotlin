@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_savio_apk_novo_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TesteAgenda">
-        <activity android:name=".FuncionalidadeNovaActivity"></activity>
-        <activity android:name=".TestandoActivity" />
+
         <activity android:name=".SplashScreenActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
